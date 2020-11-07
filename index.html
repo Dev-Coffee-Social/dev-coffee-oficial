@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="open_form.js"></script>
+    <title>Document</title>
+</head>
+<body class="">
+    <div class="header">
+        <div class="logo-ladding-page">
+            <!--LOGO-->
+        </div>
+        <h4> &lt;/CODE COFFEE></h4>
+    </div>    
+       <div class="main-ladding-page justify-content-center">
+        <div class="text-home-ladding-page text-center">
+            <h1>Encontre novos devs</h1>
+            <p>Junte-se a comunidade e encontre DevCoffees dos mais diversos níveis e áreas da programação.</p>
+            <!-- BOTÕES PARA ABRIR OS FORMS -->
+            <button class="button-form" align="center" id='button-login' onclick="open_login()">Entrar</button>
+            <button class="button-form" align="center" id='button-cadastro' onclick="open_cadastro()">Cadastro</button>
+            <!-- FORM LOGIN -->
+        </div>
+        <div class="text-center justify-content-center container-form">
+            <form id="form-login" action="" method="post">
+                <h4>ENTRE</h4>
+                <input class="input-form-ladding-page" type="text" placeholder="Usuário">
+                <br>
+                <input  class="input-form-ladding-page" type="text" placeholder="Senha">
+                <br>
+                <input class="button-form-ladding-page"type="submit" value="Entrar">
+            </form> 
+
+            <!-- FORM CADASTRO -->
+
+            <form action="" method="post" id="form-cadastro">
+                <h4>CADASTRE-SE</h4>
+                <input class="input-form-ladding-page"type="text" placeholder="Nome">
+                <br>
+                <input class="input-form-ladding-page" type="text" name="" id="" placeholder="Sobrenome">
+                <br>
+                <input class="input-form-ladding-page" type="text" placeholder="E-mail">
+                <br>
+                <input class="input-form-ladding-page" type="text" placeholder="Confirmar e-mail">
+                <br>
+                <input class="input-form-ladding-page" type="text" placeholder="Senha">
+                <br>
+                <input class="input-form-ladding-page" type="text" placeholder="Confirmar senha">
+                <br>
+                <input class="button-form-ladding-page"type="submit">
+            </form>
+        </div>
+    </div>
+    <div class="container-blocos">
+        <div class="row blocos-ladding-page text-center justify-content-center" align="center">
+            <div class="card-ladding-page ">
+                <div class="card">
+                    <img class="svg card-img-top" src="img/network.svg" alt="">
+                    <div class="card-body">
+                        <h6>Network
+                        </h6>
+                        <p>Agregue qualidade profissional em seu currículo através de experiências com Network.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-ladding-page">
+                <div class="card">
+                    <img class="svg card-img-top " src="img/gesto-de-mao.svg" alt="">
+                    <div class="card-body">
+                        <h6>Ajuda</h6>
+                        <p>Troque experiências e conhecimento e atribua-os.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-ladding-page text-center">
+            <h4>&lt;/DEV COFFEE></h4>
+            &copy; Todos os direitos reservados 2020
+        </div>
+    </footer>
+</body>
+</html>
