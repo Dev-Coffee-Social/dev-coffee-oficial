@@ -1,0 +1,121 @@
+body{
+    background: rgb(53, 53, 53);
+    
+}
+
+.btn-peril{
+    background:black; 
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+}
+.btn-peril:hover{
+    background:white; 
+    color: black;
+}
+
+/* nav bar */
+.navbar-dark{
+    background: rgb(29, 28, 28);
+}
+
+#nav-option{
+    font-size: 17px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    
+}
+
+#btn-filtro2{
+    display: none;
+}
+
+/* cards */
+.img-user{
+    height: 100px;
+    width: 100px;
+}
+
+.card-title{
+    font-size: 20px; 
+    margin-bottom: 5px;
+}
+
+.card-text{
+    font-size: 13px; 
+    margin-bottom: 4px;
+}
+.btn-search{
+    background:  rgb(29, 28, 28);
+    color:white;
+}
+#input-search{
+    width:100%;
+}
+/* media querys */
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    #filtro{
+        display: none;
+    }
+    #btn-filtro{
+        display: block;
+    }
+
+    /* cards */
+    .img-user{
+        height: 90px;
+        width: 90px;
+    }
+
+    .card-title{
+        font-size: 16px; 
+        margin-bottom: 5px;
+    }
+
+    .card-text{
+        font-size: 12px; 
+        margin-bottom: 3px;
+    }
+
+    
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    #filtro{
+        display: none;
+    }
+    #btn-filtro{
+        display: block;
+    }
+
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+     
+}
+
+/*Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    #filtro{
+        display: block;
+    }
+    #btn-filtro{
+        display: none;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+
+    
